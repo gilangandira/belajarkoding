@@ -1,1 +1,1 @@
-console.log('Ngeteh ASu')
+console.log('Ngeteh ASU')
