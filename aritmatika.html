@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="width=device-width, inital-scale=1.0">
+</head>
+
+
+<body>
+    <script>
+        let num1 = 10
+        let num2 = 5
+        let modul = 10 % 3
+
+        let sisi = 6
+        let luasPersegi = sisi * sisi
+        let kelilingPersegi = sisi * 4
+
+        let panjang =10
+        let lebar = 20
+        let luasPersegiPanjang = panjang * lebar
+        let kelilingPersegiPanjang = (panjang*2) + (lebar*2)
+
+        //Trapesium
+         let tinggi = 10
+         let a = 12
+         let b = 18
+
+        
+        
+        //Soal
+        //Permukaan Kubus
+        let luasPermukaanKubus = 6 * sisi * sisi
+        let KelilingPersegi2 = 4 * (Math.sqrt(luasPersegi))
+        //Trapesium
+        let luasTrapesium = (1/2) * tinggi * (a+b)
+        
+        document.writeln(`Luas Trapesium adalah ${luasTrapesium}<br>`)
+        document.writeln(`Luas Permukaan Kubus adalah ${luasPermukaanKubus}<br>`)
+        document.writeln(`Rumus keliling persegi jika diketahui luasnya: ${KelilingPersegi2}<br>`)
+
+
+        ////////
+
+        document.writeln(`Nilai dari ${num1} ditambah ${num2} adalah ${num1 + num2}<br> `)
+        document.writeln(`Nilai dari ${num1} dibagi ${num2} adalah ${num1 / num2}<br>`)
+        document.writeln(`Nilai dari ${num1} dikali ${num2} adalah ${num1 * num2}<br>`)
+        document.writeln(`Nilai dari ${num1} dikurang ${num2} adalah ${num1 - num2}<br>`)
+        document.writeln(`Nilai Modulus adalah ${modul}<br>`)
+        document.writeln(`dengan nilai Sisi adalah ${sisi} maka Luasnya adalah ${luasPersegi} dan Kelilingnya adalah ${kelilingPersegi}<br>`)
+        document.writeln(`dengan nilai Panjang adalah ${panjang} & Lebarnya adalah ${lebar} maka Luasnya Persegi Panjang adalah ${luasPersegiPanjang} dan Kelilingnya adalah ${kelilingPersegiPanjang}<br>`)
+    </script>
+</body>
+
+</html>
