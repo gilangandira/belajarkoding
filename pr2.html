@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <script>
+        //Case 1
+        let price = 100000;
+        let money = 75000;
+
+        if ( price > money){
+            console.log("Harga Kemahalan Tidak jadi Beli")
+        }
+        else {
+            console.log("Harga Murah dan Dapat Dibeli")
+        };
+
+        //Case 2
+
+        let age = 20;
+        let gender = "Wanita";
+
+        if (age >= 18 && gender == "Pria"){
+            console.log("Pria dan Umur lebih dari 18 tahun, dipersilahkan masuk ")
+        }else if (age < 18 && gender == "Pria"){
+            console.log("Pria dan Umur Kurang dari 18 tahun, tidak diperbolehkan masuk")
+        }else if(age >= 18 && gender == "Wanita"){
+            console.log("Wanita dan Umur lebih dari 18 tahun, tidak diperbolehkan masuk")
+        }else {
+            console.log("Wanita dan Umur kurang dari 18 tahun, tidak diperbolehkan masuk")
+        }
+
+
+        //Case 3
+        let cuaca = "Cerah";
+
+        if (cuaca == "Hujan"){
+            console.log("Tidak Jadi Berangkat")
+        }else if (cuaca == "mendung"){
+            console.log("Bawa Jas Hujan")
+        }else {
+            console.log("Datang Dengan Berani")
+        }
+    </script>
+</body>
+</html>
